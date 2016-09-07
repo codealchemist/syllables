@@ -1,0 +1,40 @@
+{
+  "name": "syllables",
+  "version": "1.0.0",
+  "description": "Splits Spanish words into syllables.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "standard && mocha --recursive --reporter spec",
+    "test-watch": "mocha --watch --recursive --reporter spec",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/syllables.git"
+  },
+  "keywords": [
+    "syllables",
+    "sílabas"
+  ],
+  "author": "Alberto Miranda <b3rt.js@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/syllables/issues"
+  },
+  "homepage": "https://github.com/codealchemist/syllables#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "standard": "^8.0.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach"
+    ]
+  }
+}

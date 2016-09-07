@@ -1,0 +1,21 @@
+{
+  "name": "syllables",
+  "description": "Splits Spanish words into syllables.",
+  "main": "src/modules/syllables.js",
+  "authors": [
+    "Alberto Miranda <b3rt.js@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "syllables",
+    "sílabas"
+  ],
+  "homepage": "https://github.com/codealchemist/syllables",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

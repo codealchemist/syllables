@@ -13,6 +13,12 @@ or
 
 `node src/index.js Uruguay` --> `Uruguay: U-ru-guay`
 
+### Programmatic usage
+
+You can require `syllables.js` in your project and use it programmatically:
+
+`new Syllables('amplitud').get()` --> `['am', 'pli', 'tud']`
+
 ### Test
 `npm test` tests coding style and runs unit tests
 

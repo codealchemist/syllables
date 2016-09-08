@@ -1,7 +1,7 @@
 {
   "name": "syllables",
   "description": "Splits Spanish words into syllables.",
-  "main": "src/modules/syllables.js",
+  "main": "bundle.js",
   "authors": [
     "Alberto Miranda <b3rt.js@gmail.com>"
   ],

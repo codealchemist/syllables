@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<style>
+			body {
+				font-family: arial;
+			}
+		</style>
+	</head>
+	<body>
+		<script src="bundle.js"></script>
+		<script>
+			var word = 'vamos';
+			var syllables = new Syllables(word).get();
+			document.body.innerHTML = word + ': ' + JSON.stringify(syllables);
+		</script>
+	</body>
+</html>

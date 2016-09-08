@@ -19,6 +19,14 @@ You can require `syllables.js` in your project and use it programmatically:
 
 `new Syllables('amplitud').get()` --> `['am', 'pli', 'tud']`
 
+### Client side usage
+
+Syllables provides a browserified bundle that runs in the browser.
+
+You can install it using Bower and use it programmatically as shown in the previous example:
+
+`bower install syllables --save`
+
 ### Test
 `npm test` tests coding style and runs unit tests
 

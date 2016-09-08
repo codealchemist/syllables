@@ -17,6 +17,8 @@ module.exports = class Syllables {
   }
 
   get () {
+    if (this.wordString.length === 1) return [this.wordString]
+
     var syllables = []
     var syllable = ''
 
